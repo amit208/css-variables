@@ -1,0 +1,25 @@
+:root {
+    --spacing: 10px;
+    --blur: 0px;
+    --color: #000000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+.h1 {
+    color: var(--color);
+}
+
+#image {
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    background-color: var(--color);
+}

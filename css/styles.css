@@ -9,6 +9,8 @@ body {
     padding: 0;
     font-family: sans-serif;
     text-align: center;
+    background-image: linear-gradient(to bottom, skyblue, blue);
+    height: 100vh;
 }
 
 h1 {
